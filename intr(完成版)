@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .profile {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile h2 {
+            margin-top: 0;
+            color: #343a40;
+        }
+        .profile p {
+            margin-bottom: 10px;
+            color: #6c757d;
+        }
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+		.profile a img {
+            width: 10%;	height: 10%; /* アイコンの大きさを50%に設定 */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>自己紹介</h1>
+    </header>
+    <div class="container">
+        <div class="profile">
+            <img src="https://pbs.twimg.com/media/GJvo-DIboAAjiSa?format=jpg&name=900x900">
+            <h2>湯本　颯</h2>
+            <p>下妻第一⇒茨城大学　地域未来共創学環　一年</p>
+            <p>好き：勉強（特に理系）、音楽、テトリス、ボーイミーツガール、ニコ動、人と話すこと、軽いスポーツ</p>
+            <p>嫌い：早起き、強制、冷ややかな目,古文漢文</p>
+            <p>今はプログラミング、AI、データサイエンス、数学の学習に力を入れていきたいと思います。DMやリアルで、なんでも気軽に話しかけてくれるとうれしいです。</p>
+            <a href="https://www.instagram.com/yuyuyu.moto.jp/"><img src="https://play-lh.googleusercontent.com/VRMWkE5p3CkWhJs6nv-9ZsLAs1QOg5ob1_3qg-rckwYW7yp1fMrYZqnEFpk0IoVP4LM" alt="インスタへ"></a>
+            <a href="https://twitter.com/sinsen_chikuwa"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkxKQu7pleZ_nFzM0kMeOq1khsqx266-TQJ9nVARibDg&s" alt="Xへ"></a>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 自己紹介 of 湯本
+    </footer>
+</body>
+</html>
